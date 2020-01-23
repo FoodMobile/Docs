@@ -1,0 +1,41 @@
+site_name: CSC 490
+repo_url: https://github.com/ShahNafisRafique/csc490
+
+nav:
+    - Home: index.md
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  logo:
+    icon: 'shopping_cart'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  palette:
+    primary: 'light green'
+    accent: 'orange'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'    
+  
+# plugins:
+#     - search
+#     - git-revision-date
+
+markdown_extensions:
+  - pymdownx.superfences
+  - admonition
+  - codehilite:
+      linenums: true
+      guess_lang: False
+      use_pygments: True
+      #noclasses: True
+      pygments_style: monokai
+      
+
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
