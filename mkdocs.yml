@@ -9,8 +9,8 @@ nav:
 theme:
   name: 'material'
   custom_dir: 'theme'
-  logo:
-    icon: 'shopping_cart'
+  logo: 'images/logo.svg' # https://www.flaticon.com/free-icon/restaurant_685352?term=food&page=1&position=8
+    #icon: school #shopping_cart
   font:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
