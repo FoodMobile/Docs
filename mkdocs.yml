@@ -3,6 +3,8 @@ repo_url: https://github.com/ShahNafisRafique/csc490
 
 nav:
     - Home: index.md
+    - Project Proposal: project_proposal.md
+    - Repositories: repos.md
 
 theme:
   name: 'material'
@@ -28,6 +30,10 @@ extra:
 markdown_extensions:
   - pymdownx.superfences
   - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.tilde
   - codehilite:
       linenums: true
       guess_lang: False
@@ -39,3 +45,4 @@ markdown_extensions:
 extra_css:
   - stylesheets/dark_theme.css
   - stylesheets/codehilite.css
+  - stylesheets/custom.css
