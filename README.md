@@ -1,3 +1,3 @@
 # Readme
 
-Documentation is [here](https://csc490.readthedocs.io/en/latest/)
+Documentation is [here](https://foodmobile.readthedocs.io/en/latest/)
