@@ -5,6 +5,7 @@ nav:
     - Home: index.md
     - Project Proposal: project_proposal.md
     - Repositories: repos.md
+    - Rest Interface: rest_interface.md
 
 theme:
   name: 'material'
