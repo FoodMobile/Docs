@@ -5,7 +5,8 @@ nav:
     - Home: index.md
     - Project Proposal: project_proposal.md
     - Repositories: repos.md
-    - Rest Interface: rest_interface.md
+    - Rest Interface:
+        - User: api/user.md
 
 theme:
   name: 'material'
@@ -13,7 +14,7 @@ theme:
   logo: 'images/logo.svg' # https://www.flaticon.com/free-icon/restaurant_685352?term=food&page=1&position=8
     #icon: school #shopping_cart
   font:
-    text: 'Ubuntu'
+    text: 'Roboto'
     code: 'Ubuntu Mono'
   palette:
     primary: 'light green'

@@ -1,8 +1,11 @@
 # Rest Api
 
-# User 
----
-## /signup
+## User
+
+??? success "POST"
+    ## /signup
+	Parameters:
+		- username
 
 <b style="text-decoration: underline;">POST:</b>
 
