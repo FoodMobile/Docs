@@ -1,0 +1,49 @@
+site_name: FoodMobile App
+repo_url: https://github.com/ShahNafisRafique/csc490
+
+nav:
+    - Home: index.md
+    - Project Proposal: project_proposal.md
+    - Repositories: repos.md
+    - Rest Interface: rest_interface.md
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  logo: 'images/logo.svg' # https://www.flaticon.com/free-icon/restaurant_685352?term=food&page=1&position=8
+    #icon: school #shopping_cart
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  palette:
+    primary: 'light green'
+    accent: 'orange'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'    
+  
+# plugins:
+#     - search
+#     - git-revision-date
+
+markdown_extensions:
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.tilde
+  - codehilite:
+      linenums: true
+      guess_lang: False
+      use_pygments: True
+      #noclasses: True
+      pygments_style: monokai
+      
+
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+  - stylesheets/custom.css
