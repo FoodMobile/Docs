@@ -5,8 +5,10 @@ nav:
     - Home: index.md
     - Project Proposal: project_proposal.md
     - Repositories: repos.md
-    - Rest Interface:
-        - User: api/user.md
+    - Reports:
+        - 2/06/2020: reports/2-6-2020.md
+    # - Rest Interface:
+    #     - User: api/user.md
 
 theme:
   name: 'material'
@@ -36,6 +38,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.critic
   - pymdownx.tilde
+  - pymdownx.snippets
   - codehilite:
       linenums: true
       guess_lang: False
