@@ -108,7 +108,7 @@ Example response:
 
 ### /api/c/setprofileinfo
 
-Gets the profile information of the currently authenticated user
+Sets the profile information of the currently authenticated user
 
 | Parameter name          | Type         | Example value                | Description                                                                          |
 | ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
