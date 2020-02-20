@@ -113,6 +113,12 @@ Gets the profile information of the currently authenticated user
 | Parameter name          | Type         | Example value                | Description                                                                          |
 | ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
 | token                   | string       | sdfkhdkfjhksjdhkfhdsh        | Token provided by /api/authenticate                                                  |
+| first_name              | string       | Jonathan                     | The new first name for the user                                                      |
+| family_name             | string       | Cooper                       | The new family name for the user                                                     |
+| addr_line_1             | string       | 123 Spring Garden            | The new first address line for the user                                              |
+| addr_line_2             | string       | Apt 123 #A                   | The new second address line for the user                                             |
+| zip                     | string       | 27410                        | The new zip code for the user                                                        |
+| city                    | string       | Greensboro                   | The new city for the user                                                            |
 
 Example request:
 
