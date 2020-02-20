@@ -1,6 +1,6 @@
 # Food Mobile
 
-Documentation is [here](https://foodmobile.readthedocs.io/en/latest/)
+Documentation is [here](https://foodmobiledocs.readthedocs.io/en/latest/)
 
 ## The People
 
