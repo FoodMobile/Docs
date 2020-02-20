@@ -1,0 +1,102 @@
+# REST API Documentation
+
+This documentation is current a work in progress. Things may change as this project progresses, but currently this should be the most up to date reference of what will be. This documentation can be helpful for prototyping. Some requests listed in this document may be working on the server, but they are probably 'dummy' responses for testing purposes.
+
+## Customer
+
+[/api/c/authenticate](#apicauthenticate)
+
+[/api/c/nearbytrucks](#apicnearbytrucks)
+
+### /api/c/authenticate
+
+Authenticates users with the REST api. Responses with a token on success which will be used for other requests.
+
+| Parameter name          | Type         | Example value                | Description                                                                          |
+| ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
+| username                | string       | joe / 3365797837             | Either the phone number / username or other auth of the user to login.               |
+| password                | string       | password123$                 | The password corresponding to the username                                           |
+
+Example request:
+
+```json
+{
+  "username": "joe",
+  "password": "password123$"
+}
+```
+
+Example response:
+
+```json
+{
+    "token": "kjlejrlksjlrklsjljfjskfjeskjeflk",
+    "errorCode": 0,
+    "errorMessage": "Login successful"
+}
+```
+
+### /api/c/authenticate
+
+Authenticates users with the REST api. Responses with a token on success which will be used for other requests.
+
+| Parameter name          | Type         | Example value                | Description                                                                          |
+| ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
+| token                   | string       | sdfkhdkfjhksjdhkfhdsh        | Token provided by /api/authenticate                                                  |
+| id                      | string       | password123$                 | The password corresponding to the username                                           |
+
+Example request:
+
+```json
+{
+  "token": "sdfkhdkfjhksjdhkfhdsh",
+  "id": "truck-guid-here"
+}
+```
+
+Example response:
+
+```json
+{
+    "errorCode": 0,
+    "errorMessage": "Success",
+    "truck_info": {
+        "company_name": "Bob's Tacos"
+    }
+}
+```
+
+### /api/c/nearbytrucks
+
+Gets the trucks near the provided latitude and longitude. 
+
+| Parameter name          | Type         | Example value                | Description                                                                          |
+| ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
+| token                   | string       | sdfkhdkfjhksjdhkfhdsh        | Token provided by /api/authenticate                                                  |
+| lat                     | float        | 123.0123                     | The current latitude coordinate of the user                                          |
+| long                    | float        | 123.0123                     | The current longitude coordinate of the user                                         |
+
+Example request:
+
+```json
+{
+  "username": "joe",
+  "password": "password123$"
+}
+```
+
+Example response:
+
+```json
+{
+    "errorCode": 0,
+    "errorMessage": "Success",
+    "trucks": [
+        {
+            "id": "truck-guid",
+            "lat": 512.0123,
+            "long": 151.1231
+        }
+    ]
+}
+```
