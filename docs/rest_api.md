@@ -6,7 +6,13 @@ This documentation is current a work in progress. Things may change as this proj
 
 [/api/c/authenticate](#apicauthenticate)
 
+[/api/c/truckinfo](#apictruckinfo)
+
 [/api/c/nearbytrucks](#apicnearbytrucks)
+
+[/api/c/getprofileinfo](#apicgetprofileinfo)
+
+[/api/c/setprofileinfo](#apicsetprofileinfo)
 
 ### /api/c/authenticate
 
@@ -36,9 +42,9 @@ Example response:
 }
 ```
 
-### /api/c/authenticate
+### /api/c/truckinfo
 
-Authenticates users with the REST api. Responses with a token on success which will be used for other requests.
+Gets more information about a specific truck. 
 
 | Parameter name          | Type         | Example value                | Description                                                                          |
 | ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
@@ -63,6 +69,72 @@ Example response:
     "truck_info": {
         "company_name": "Bob's Tacos"
     }
+}
+```
+
+### /api/c/getprofileinfo
+
+Gets the profile information of the currently authenticated user
+
+| Parameter name          | Type         | Example value                | Description                                                                          |
+| ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
+| token                   | string       | sdfkhdkfjhksjdhkfhdsh        | Token provided by /api/authenticate                                                  |
+
+Example request:
+
+```json
+{
+  "token": "sdfkhdkfjhksjdhkfhdsh",
+}
+```
+
+Example response:
+
+```json
+{
+    "errorCode": 0,
+    "errorMessage": "Success",
+    "profile_info": {
+        "first_name": "Jonathan",
+        "family_name": "Cooper",
+        "addr_line_1": "1400 Spring Garden St",
+        "addr_line_2": "",
+        "zip": "27410",
+        "state": "NC",
+        "city": "Greensboro"
+    }
+}
+```
+
+### /api/c/setprofileinfo
+
+Gets the profile information of the currently authenticated user
+
+| Parameter name          | Type         | Example value                | Description                                                                          |
+| ----------------------- | ------------ | ---------------------------- | ------------------------------------------------------------------------------------ |
+| token                   | string       | sdfkhdkfjhksjdhkfhdsh        | Token provided by /api/authenticate                                                  |
+
+Example request:
+
+```json
+{
+    "token": "sdfkhdkfjhksjdhkfhdsh",
+    "first_name": "Jonathan",
+    "family_name": "Cooper",
+    "addr_line_1": "1400 Spring Garden St",
+    "addr_line_2": "",
+    "zip": "27410",
+    "state": "NC",
+    "city": "Greensboro"
+}
+```
+
+Example response:
+
+```json
+{
+    "errorCode": 0,
+    "errorMessage": "Success"
 }
 ```
 
