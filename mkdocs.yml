@@ -10,6 +10,7 @@ nav:
     - Rest:
         - API: rest_api.md
         - Interface: rest_interface.md
+        - User: api/user.md
 
 theme:
   name: 'material'
