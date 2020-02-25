@@ -6,6 +6,7 @@ nav:
     - Project Proposal: project_proposal.md
     - Repositories: repos.md
     - Reports:
+        - Combined Report: reports/mega_report.md
         - 2/06/2020: reports/2-6-2020.md
     - Rest:
         - API: rest_api.md
