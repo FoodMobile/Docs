@@ -16,3 +16,7 @@ mkdocs serve
 [Backend](https://github.com/FoodMobile/backend) - Contains source code for the Java Spring ???(idk wat to say).  
 
 All repositories are under the FoodMobile Organization Github which can be found [here](https://github.com/FoodMobile).
+
+# Expo app
+
+We are using [expo](https://expo.io/features) to build our app. By going [here](https://expo.io/@namenai/foodmobile) you can run a snapshot of the app.
