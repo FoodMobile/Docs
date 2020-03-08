@@ -1,5 +1,14 @@
 h2 {
-    color:orange
+    color:orange;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h5 {
+    color: white !important;
 }
 
 .md-nav--secondary {

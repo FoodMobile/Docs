@@ -8,10 +8,11 @@ nav:
     - Reports:
         - Combined Report: reports/mega_report.md
         - 2/06/2020: reports/2-6-2020.md
-    - Rest:
-        - API: rest_api.md
-        - Interface: rest_interface.md
-        - User: api/user.md
+        - 2/20/2020: reports/2-20-2020.md
+    # - Rest:
+    #     - API: rest_api.md
+    #     - Interface: rest_interface.md
+    #     - User: api/user.md
 
 theme:
   name: 'material'

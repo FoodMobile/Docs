@@ -3,22 +3,18 @@
 ## Team members
 --8<-- "./docs/members.md"
 
-## 2/25/2020
-
-### Tasks
+## Tasks
 --8<-- "./docs/reports/components/tasks.md"
 
-### Deadlines
+## Deadlines
 --8<-- "./docs/reports/components/deadlines.md"
 
-### Diagrams
+## Diagrams
+--8<-- "./docs/reports/components/diagrams.md"
 
-#### ER Diagram
-![Screenshot!](../images/fakeCard.png)
-
-#### UML Diagram
-
-#### UI Diagrams
-
-### Responsibilities
+## Responsibilities
 --8<-- "./docs/reports/components/responsibilities.md"
+
+## Notes
+
+--8<-- "./docs/reports/components/notes.md"
