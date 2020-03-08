@@ -19,3 +19,6 @@
 #### UML Diagram
 
 #### UI Diagrams
+
+### Responsibilities
+--8<-- "./docs/reports/components/responsibilities.md"
