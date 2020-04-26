@@ -3,10 +3,19 @@ repo_url: https://github.com/ShahNafisRafique/csc490
 
 nav:
     - Home: index.md
-    - Project Proposal: project_proposal.md
-    - Project Links: repos.md
     - User documentation: 
         - Overview: user_docs/overview.md
+        - How to Login: user_docs/login.md
+        - Navigation: user_docs/navigation.md
+        - Managing Favorites: user_docs/favorites.md
+        - Viewing Previous Orders: user_docs/view_orders.md
+        - Managing Dietary/Allergy Information: user_docs/manage_food_settings.md
+        - Manage Settings: user_docs/settings.md
+    - For Truck Drivers:
+        - Register as a Driver: user_docs/driver_reg.md
+        - Register a Truck: user_docs/create_truck.md
+    - Project Proposal: project_proposal.md
+    - Project Links: repos.md
     - Reports:
         - Combined Report: reports/mega_report.md
     # - Rest:
