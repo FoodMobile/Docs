@@ -5,10 +5,10 @@ nav:
     - Home: index.md
     - Project Proposal: project_proposal.md
     - Project Links: repos.md
+    - User documentation: 
+        - Overview: user_docs/overview.md
     - Reports:
         - Combined Report: reports/mega_report.md
-        - 2/06/2020: reports/2-6-2020.md
-        - 2/20/2020: reports/2-20-2020.md
     # - Rest:
     #     - API: rest_api.md
     #     - Interface: rest_interface.md

@@ -13,10 +13,10 @@ and then to run the local mkdocs server run
 mkdocs serve
 ```
 [Frontend](https://github.com/FoodMobile/frontend)  - Contains source code for the React-Native app.  
-[Backend](https://github.com/FoodMobile/backend) - Contains source code for the Java Spring ???(idk wat to say).  
+[Backend](https://github.com/FoodMobile/backend) - Contains source code for the Java Spring.  
 
 All repositories are under the FoodMobile Organization Github which can be found [here](https://github.com/FoodMobile).
 
-# Expo app
+## Expo app
 
 We are using [expo](https://expo.io/features) to build our app. By going [here](https://expo.io/@namenai/foodmobile) you can run a snapshot of the app.
