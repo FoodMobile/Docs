@@ -11,7 +11,7 @@ To create a truck a user has to be registered as a driver first. If you are not 
 - Click "Request to be a driver" and click "YES" in the pop-up dialogue box to 
 - Enter the information prompted on the screen
 
-<img src="https://raw.githubusercontent.com/FoodMobile/Docs/master/docs/user_docs_images/create_truck_dialogue_box.png" heigth="475" width="267.5">
+<img src="https://raw.githubusercontent.com/FoodMobile/Docs/master/docs/user_docs_images/create_truck_box.png" heigth="475" width="267.5">
 <img src="https://raw.githubusercontent.com/FoodMobile/Docs/master/docs/user_docs_images/create_truck2.png" heigth="475" width="267.5">
 
 - Enter the information prompted on the screen to create your truck
