@@ -1,6 +1,6 @@
-# Registering a Truck
+# Registering as a Driver and Create a Truck
 
-To create a truck a user has to be registered as a driver first. If you are not authorized as a driver yet, see [register to be a driver](https://foodmobiledocs.readthedocs.io/en/latest/user_docs/driver_reg/).  If a user already has permissions as a driver then they can register their truck.
+To create a truck a user has to be registered as a driver first. Registering as a driver and creating a truck are one simultaneous action.
 
 - Go to the settings page by clicking the wrench icon in the bottom navigation menu
 - Click on "My Profile" 
