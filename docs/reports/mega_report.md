@@ -1,20 +1,3 @@
 # Project Report
 
-## Team members
---8<-- "./docs/members.md"
-
-## Tasks
---8<-- "./docs/reports/components/tasks.md"
-
-## Deadlines
---8<-- "./docs/reports/components/deadlines.md"
-
-## Diagrams
---8<-- "./docs/reports/components/diagrams.md"
-
-## Responsibilities
---8<-- "./docs/reports/components/responsibilities.md"
-
-## Notes
-
---8<-- "./docs/reports/components/notes.md"
+This is a [link](https://docs.google.com/document/d/1e4v4XigxW8-2T-YaT36xTi4cikN99RSZAzTDAUhkoj0/edit#) to the google doc.
