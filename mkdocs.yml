@@ -8,11 +8,10 @@ nav:
         - How to Login: user_docs/login.md
         - Navigation: user_docs/navigation.md
         - Managing Favorites: user_docs/favorites.md
-        - Viewing Previous Orders: user_docs/view_orders.md
         - Managing Dietary/Allergy Information: user_docs/manage_food_settings.md
         - Manage Settings: user_docs/settings.md
     - For Truck Drivers:
-        - Register as a Driver: user_docs/driver_reg.md
+        - Register as a Driver: user_docs/register_a_driver.md
         - Register a Truck: user_docs/create_truck.md
     - Project Proposal: project_proposal.md
     - Project Links: repos.md
