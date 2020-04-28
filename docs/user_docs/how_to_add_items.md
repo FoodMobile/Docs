@@ -1,10 +1,10 @@
-# Adding a menu to a company
+# Adding a Menu To a Company
 
-Inorder to to add menu items to a company, a user first must be part of the company and a truck driver. To do so follow the steps found [here](/user_docs/register_as_driver/)
+In order to to add menu items to a company, a user first must be part of the company and a truck driver. To do so follow the steps found [here](/user_docs/register_as_driver/).
 
-## Steps to add menu to item
+## Steps to add item to menu
 
-- First proceed to the settings tab, you will see a purple icon called `Edit Menu`
+- First proceed to the settings tab, you will see a purple icon called `Edit Menu`.
 
 ![#SettingsPage](../user_docs_images/settings_resize.png)
 
@@ -17,6 +17,6 @@ Inorder to to add menu items to a company, a user first must be part of the comp
 ![#editMenu2](../user_docs_images/editmenu2_resize.png)
 ![#editMenu3](../user_docs_images/editmenu3_resize.png)
 
-- Then after going back to the menu (you have to click refresh) you should see your newly created item!
+- Then after going back to the menu, you have to click refresh, you should see your newly created item!
 
 ![#editMenu5](../user_docs_images/editmenu5_resize.png)
