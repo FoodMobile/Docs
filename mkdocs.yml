@@ -10,6 +10,7 @@ nav:
         - Managing Favorites: user_docs/favorites.md
         - Managing Dietary/Allergy Information: user_docs/manage_food_settings.md
         - Manage Settings: user_docs/settings.md
+        - Adding Menu Items: user_docs/how_to_add_items.md
     - For Truck Drivers:
         - Register as a Driver and Register Truck: user_docs/register_as_driver.md
     - Project Proposal: project_proposal.md
